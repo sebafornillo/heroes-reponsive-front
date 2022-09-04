@@ -1,0 +1,315 @@
+/*generales*/
+body{
+    width: 100vh;
+    height: 70vw;
+    margin: 0;
+}
+
+
+
+p {color: #333333;
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 0px 30px;
+    font-weight: 400;
+}
+.titulo{
+    color:#000000;
+    font-size: 30px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.boton{
+    height: 50px;
+    width: 160px;
+    background-color: #00669F;
+    border: none;
+    color: #F3F3F3;
+    border-radius: 5px;
+    
+}
+.perfil{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    position: relative;
+    top: 90px;
+
+
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content:flex-end;
+    align-items: center;
+    color: #F3F3F3;
+    padding-top: 100px;
+    box-shadow:0px 0px 8px 0 #333333;
+    padding-bottom: 25px;
+}
+
+
+/*header*/
+
+.encabezado{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cabeza-arriba{
+    
+    height: 3vh;
+    display: flex;
+    background-color: #D1891C;
+    padding: 3px;
+    align-items: center;
+}
+.descuentos{
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+    padding-left: 30px;
+    margin:0;
+
+}
+.cabeza-abajo{
+    height: 7vh;
+    background-color: #00669F;
+    display: flex;
+    align-items: center;
+    box-shadow:0px 0px 15px 0 #333333;
+
+}
+h1{font-family:'Roboto', sans-serif;
+    font-size: 28px;
+    color: #FFFFFF;
+    font-weight: 200;
+    padding-left: 30px;
+
+}
+/*main*/
+
+.contenedor-padre1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 60vh;
+    width: 100vw;
+    margin:0;
+    
+    
+
+    
+}
+
+.carta-batman{
+    display: flex;
+    flex-direction:column;
+    height:70%;
+    width: 20%;
+    
+    
+}
+.contenedor-batman{
+    display: flex;
+    background-image: url('./img/fondo\ batman.png');
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px 30px 0px 0px;
+    padding-top: 50px;
+
+    
+}
+
+.corazon-batman{
+    height: 30px;
+    width: 35px;
+    position: relative;
+    right: 160px;
+    bottom: 30px;
+}
+
+
+.carta-mujer{
+    display: flex;
+    flex-direction:column;
+    height:70%;
+    width: 20%;
+    
+    
+}
+.contenedor-mujer{
+    display: flex;
+    background-image: url('./img/fonde\ mujer\ maravilla.png');
+    background-size:cover;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items:center;
+    border-radius:30px 30px 0px 0px;
+
+    
+}
+
+.corazon-mujer{
+    height: 30px;
+    width: 35px;
+    position: relative;
+    right: 160px;
+    bottom: 30px;
+}
+
+.contenedor-padre2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 60vh;
+    width: 100vw;
+    margin-top:25vh;
+
+
+    
+}
+.carta-super{
+    display: flex;
+    flex-direction:column;
+    height:70%;
+    width: 20%;
+    
+    
+}
+.contenedor-super{
+    display: flex;
+    background-image:url('./img/fondo\ superman.png');
+    background-size:cover;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items:center;
+    border-radius:30px 30px 0px 0px;
+
+    
+}
+.perfil-superman{
+    display: none;
+}
+
+.corazon-super{
+    height: 30px;
+    width: 35px;
+    position: relative;
+    right: 160px;
+    bottom: 30px;
+}
+
+.carta-quinn{
+    display: flex;
+    flex-direction:column;
+    height:70%;
+    width: 20%;
+    
+    
+}
+.contenedor-quinn{
+    display: flex;
+    background-image:url('./img/849bfede3a5193c34ab8a00379e64fa2\ 1\ \(8\).png');
+    background-size:cover;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items:center;
+    border-radius:30px 30px 0px 0px;
+
+    
+}
+
+.corazon-quinn{
+    height: 30px;
+    width: 35px;
+    position: relative;
+    right: 160px;
+    bottom: 30px;
+}
+
+/*footer*/
+
+.pie-pagina{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    background-color: #00669F;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 300px;
+    padding-left: 200px;
+
+    
+
+
+}
+
+.derechos-reservados{
+    color: #F3F3F3;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 200px;
+    
+    
+}
+
+
+.logo-git{
+    height: 50px;
+}
+
+/*reponsive*/
+
+@media (max-width:650px){
+    .contenedor-padre1{
+        flex-direction: column;
+    
+        
+    }
+    .contendor-padre2{
+        flex-direction: column;
+    
+    
+    }
+    .carta-quinn{
+        display: none;
+    
+    
+    }
+    .perfil-superman{
+        display: block;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        position: relative;
+        bottom: 10px;
+
+    }
+    .perfil{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        position: relative;
+        top: 90px;
+
+    }
+
+    
+
+
+}
+
+
+
+
+
+
